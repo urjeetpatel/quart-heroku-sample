@@ -11,4 +11,5 @@ async def ws():
     while True:
         await websocket.send('hello')
 
-app.run()
+if __name__ == "__main__":
+    app.run()
